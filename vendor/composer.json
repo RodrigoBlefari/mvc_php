@@ -1,0 +1,23 @@
+{
+    "name": "son/mvc",
+    "require": {
+        "php": ">=5.3",
+        "minimus-stability": "alpha",
+        "authors": [
+            {
+                "name": "Rodrigo Blefari",
+                "email": "rodrigo.blefari@gmail.com"
+            }
+        ],
+        "autoload": {
+            "psr-4": {
+                
+            "FrameworkAula\\": "vendor/frameworkAula",
+            "app": "app"
+            }
+        }
+    }
+    "config": {
+        "bin-dir": "bin"
+    }
+}
